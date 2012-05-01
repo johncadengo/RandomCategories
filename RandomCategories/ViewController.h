@@ -10,8 +10,8 @@
 
 // Can change this number to make any number of rows we wish.
 enum {
-    kRandomStringLength = 8,
-    kNumRows = 16,
+    kRandomStringLength = 16,
+    kNumRows = 32,
 };
 
 @interface ViewController : UITableViewController

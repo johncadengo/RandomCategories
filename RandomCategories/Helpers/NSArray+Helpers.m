@@ -18,8 +18,18 @@
     // Make sure len is at least 1
     ++len;
     
+    NSString *randomString;
     for (int i=0; i<count; ++i) {
-        [arr addObject: [NSString genRandStringLength:arc4random()%len]];
+        // Make sure we generate a string of length at least 1
+        while (![randomString length]) {
+            randomString = [NSString genRandStringLength:arc4random()%len];
+        }
+        
+        // Then add it
+        [arr addObject: randomString];
+        
+        // Reset
+        randomString = nil;
     }
     
     return [NSArray arrayWithArray:arr];

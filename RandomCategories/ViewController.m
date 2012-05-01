@@ -17,31 +17,24 @@
 @synthesize randomStrings = _randomStrings;
 @synthesize images = _images;
 
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Initialize the arrays of data which we will use to populate our table view cells.
-        self.randomDates = [[NSMutableArray alloc] initWithCapacity:kNumRows];
-        self.randomStrings = [[NSMutableArray alloc] initWithCapacity:kNumRows];
-        
-        // These images are located in the images folder.
-        self.images = [NSArray arrayWithObjects:
-                       [UIImage imageNamed:@"Beer"],
-                       [UIImage imageNamed:@"Bread"],
-                       [UIImage imageNamed:@"Burger"],
-                       [UIImage imageNamed:@"Coffee"],
-                       [UIImage imageNamed:@"Cupcake"],
-                       [UIImage imageNamed:@"Egg"],
-                       [UIImage imageNamed:@"FastFood"],
-                       [UIImage imageNamed:@"Fish"],nil];
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // Initialize the arrays of data which we will use to populate our table view cells.
+    self.randomDates = [[NSMutableArray alloc] initWithCapacity:kNumRows];
+    self.randomStrings = [[NSMutableArray alloc] initWithCapacity:kNumRows];
+    
+    // These images are located in the images folder.
+    self.images = [NSArray arrayWithObjects:
+                   [UIImage imageNamed:@"Beer.png"],
+                   [UIImage imageNamed:@"Bread.png"],
+                   [UIImage imageNamed:@"Burger.png"],
+                   [UIImage imageNamed:@"Coffee.png"],
+                   [UIImage imageNamed:@"Cupcake.png"],
+                   [UIImage imageNamed:@"Egg.png"],
+                   [UIImage imageNamed:@"FastFood.png"],
+                   [UIImage imageNamed:@"Fish.png"],nil];
     
     // Populate our arrays with random data.
     [self populateArrays];
@@ -67,7 +60,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     
     // Set up our labels. The main label will be our random string.
@@ -101,7 +94,7 @@
     self.randomStrings = [NSMutableArray arrayWithCount:kNumRows ofRandomStringsOfLength:kRandomStringLength];
     
     // And our random dates array with some random dates.
-    for (int i = 0; i < kNumRows; i++) {
+    for (int i = 0; i < kNumRows; ++i) {
         // This will return random dates ranging from the present to less than a month ago.
         [self.randomDates addObject:[NSDate randomDateWithinRelativeTime:RelativeTimeDays]];
     }
