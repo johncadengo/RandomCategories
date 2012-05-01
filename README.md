@@ -10,7 +10,7 @@ So far I've created categories on three classes,
 
 All of them are centered around the idea that you want new, fresh, and random data, but don't actually need it to be anything specific. Just to make sure that the spacing, layout, and design of what you're working on is accurate and flexible.
 
-###Example Project
+###Sample Project
 I've included a `UITableViewController` which displays rows of data composed of random strings, random relative dates, and random images. If you scroll, the images will change each time it is refreshed, but the dates and strings will stay the same. Just to demonstrate the different ways of using the categories.
 
 ###Example Usage
@@ -32,6 +32,17 @@ The options available are:
     } RelativeTime;
 
 ###Screenshot
-From the example project,
+From the sample project,
 
 ![RandomCategories Screenshot](https://github.com/johncadengo/RandomCategories/raw/master/screenshot.png)
+
+###Blessing
+The images in the sample project are taken from [The Noun Project](http://thenounproject.com/).
+
+The code is disclaimed from copyright. Instead of a legal notice, I offer a [blessing](http://www.sqlite.org/different.html),
+
+> May you seek good and not evil.
+>
+> May you find forgiveness for yourself and the grace to forgive others.
+>
+> May you give freely knowing that all things you have were received.
