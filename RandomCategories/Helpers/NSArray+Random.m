@@ -6,7 +6,7 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "NSArray+Helpers.h"
+#import "NSArray+Random.h"
 #import "NSString+RandomStrings.h"
 
 @implementation NSArray (Random)

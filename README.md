@@ -4,7 +4,7 @@ Working on presenting data but don't care what the data actually is? Then these 
 
 So far I've created categories on three classes,
 
-* `NSArray+Helpers`
+* `NSArray+Random`
 * `NSDate+RandomDates`
 * `NSString+RandomStrings`
 

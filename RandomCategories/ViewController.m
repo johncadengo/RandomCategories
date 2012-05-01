@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "NSArray+Helpers.h"
+#import "NSArray+Random.h"
 #import "NSDate+RandomDates.h"
 #import "NSString+RandomStrings.h"
 

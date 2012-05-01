@@ -19,8 +19,8 @@
 		670D74D315503D8D00F8215F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670D74B415503D8C00F8215F /* Foundation.framework */; };
 		670D74DB15503D8D00F8215F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 670D74D915503D8D00F8215F /* InfoPlist.strings */; };
 		670D74DE15503D8D00F8215F /* RandomCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D74DD15503D8D00F8215F /* RandomCategoriesTests.m */; };
-		670D751715503F8800F8215F /* NSArray+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751215503F8800F8215F /* NSArray+Helpers.m */; };
-		670D751815503F8800F8215F /* NSArray+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751215503F8800F8215F /* NSArray+Helpers.m */; };
+		670D751715503F8800F8215F /* NSArray+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751215503F8800F8215F /* NSArray+Random.m */; };
+		670D751815503F8800F8215F /* NSArray+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751215503F8800F8215F /* NSArray+Random.m */; };
 		670D751915503F8800F8215F /* NSDate+RandomDates.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751415503F8800F8215F /* NSDate+RandomDates.m */; };
 		670D751A15503F8800F8215F /* NSDate+RandomDates.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751415503F8800F8215F /* NSDate+RandomDates.m */; };
 		670D751B15503F8800F8215F /* NSString+RandomStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751615503F8800F8215F /* NSString+RandomStrings.m */; };
@@ -73,8 +73,8 @@
 		670D74DA15503D8D00F8215F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		670D74DC15503D8D00F8215F /* RandomCategoriesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomCategoriesTests.h; sourceTree = "<group>"; };
 		670D74DD15503D8D00F8215F /* RandomCategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomCategoriesTests.m; sourceTree = "<group>"; };
-		670D751115503F8800F8215F /* NSArray+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Helpers.h"; path = "Helpers/NSArray+Helpers.h"; sourceTree = "<group>"; };
-		670D751215503F8800F8215F /* NSArray+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Helpers.m"; path = "Helpers/NSArray+Helpers.m"; sourceTree = "<group>"; };
+		670D751115503F8800F8215F /* NSArray+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Random.h"; path = "Helpers/NSArray+Random.h"; sourceTree = "<group>"; };
+		670D751215503F8800F8215F /* NSArray+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Random.m"; path = "Helpers/NSArray+Random.m"; sourceTree = "<group>"; };
 		670D751315503F8800F8215F /* NSDate+RandomDates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+RandomDates.h"; path = "Helpers/NSDate+RandomDates.h"; sourceTree = "<group>"; };
 		670D751415503F8800F8215F /* NSDate+RandomDates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+RandomDates.m"; path = "Helpers/NSDate+RandomDates.m"; sourceTree = "<group>"; };
 		670D751515503F8800F8215F /* NSString+RandomStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+RandomStrings.h"; path = "Helpers/NSString+RandomStrings.h"; sourceTree = "<group>"; };
@@ -193,8 +193,8 @@
 		670D74E715503D9800F8215F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				670D751115503F8800F8215F /* NSArray+Helpers.h */,
-				670D751215503F8800F8215F /* NSArray+Helpers.m */,
+				670D751115503F8800F8215F /* NSArray+Random.h */,
+				670D751215503F8800F8215F /* NSArray+Random.m */,
 				670D751315503F8800F8215F /* NSDate+RandomDates.h */,
 				670D751415503F8800F8215F /* NSDate+RandomDates.m */,
 				670D751515503F8800F8215F /* NSString+RandomStrings.h */,
@@ -342,7 +342,7 @@
 			files = (
 				670D74BF15503D8C00F8215F /* main.m in Sources */,
 				670D74C315503D8D00F8215F /* AppDelegate.m in Sources */,
-				670D751715503F8800F8215F /* NSArray+Helpers.m in Sources */,
+				670D751715503F8800F8215F /* NSArray+Random.m in Sources */,
 				670D751915503F8800F8215F /* NSDate+RandomDates.m in Sources */,
 				670D751B15503F8800F8215F /* NSString+RandomStrings.m in Sources */,
 				670D75371550403F00F8215F /* ViewController.m in Sources */,
@@ -354,7 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				670D74DE15503D8D00F8215F /* RandomCategoriesTests.m in Sources */,
-				670D751815503F8800F8215F /* NSArray+Helpers.m in Sources */,
+				670D751815503F8800F8215F /* NSArray+Random.m in Sources */,
 				670D751A15503F8800F8215F /* NSDate+RandomDates.m in Sources */,
 				670D751C15503F8800F8215F /* NSString+RandomStrings.m in Sources */,
 				670D75381550403F00F8215F /* ViewController.m in Sources */,

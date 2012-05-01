@@ -7,7 +7,7 @@
 //
 
 #import "NSString+RandomStrings.h"
-#import "NSArray+Helpers.h"
+#import "NSArray+Random.h"
 @implementation NSString (RandomStrings)
 static NSString *letters = @"abcdefghijklmnopqrstuvwxyz";
 
