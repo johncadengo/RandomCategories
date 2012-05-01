@@ -16,7 +16,7 @@ I've included a `UITableViewController` which displays rows of data composed of 
 ###Example Usage
 Say you want to generate a random relative date, i.e. a timestamp to display in a `UITableViewCell`. You can do something like this,
 
-    [NSDate randomDateWithinRelativeTime:RelativeTimeDays];
+    [NSDate randomDateWithinRelativeTime:RelativeTimeDays]
     
 Which might spit out something along the lines of "just now", "5 minutes", "7 hours", or "23 days".
 
