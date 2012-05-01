@@ -4,9 +4,9 @@ Working on presenting data but don't care what the data actually is? Then these 
 
 So far I've created categories on three classes,
 
-* NSArray
-* NSDate
-* NSString
+* `NSArray`
+* `NSDate`
+* `NSString`
 
 All of them are centered around the idea that you want new, fresh, and random data, but don't actually need it to be anything specific. Just to make sure that the spacing, layout, and design of what you're working on is accurate and flexible.
 
