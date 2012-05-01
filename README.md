@@ -34,4 +34,4 @@ The options available are:
 ###Screenshot
 From the example project,
 
-![RandomCategories Screenshot](screenshot.png)
+![RandomCategories Screenshot](https://github.com/johncadengo/RandomCategories/raw/master/screenshot.png)
