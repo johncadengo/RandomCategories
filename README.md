@@ -30,3 +30,8 @@ The options available are:
         RelativeTimeMonths,
         RelativeTimeYears
     } RelativeTime;
+
+###Screenshot
+From the example project,
+
+![RandomCategories Screenshot](screenshot.png)
