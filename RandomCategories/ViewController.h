@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+// Can change this number to make any number of rows we wish.
+enum {
+    kRandomStringLength = 8,
+    kNumRows = 16,
+};
+
+@interface ViewController : UITableViewController
+
+@property (nonatomic, strong) NSMutableArray *randomDates;
+@property (nonatomic, strong) NSMutableArray *randomStrings;
+@property (nonatomic, strong) NSArray *images;
+
+- (void)populateArrays;
 
 @end

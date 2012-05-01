@@ -14,12 +14,35 @@
 		670D74BF15503D8C00F8215F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D74BE15503D8C00F8215F /* main.m */; };
 		670D74C315503D8D00F8215F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D74C215503D8D00F8215F /* AppDelegate.m */; };
 		670D74C615503D8D00F8215F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670D74C415503D8D00F8215F /* MainStoryboard.storyboard */; };
-		670D74C915503D8D00F8215F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D74C815503D8D00F8215F /* ViewController.m */; };
 		670D74D115503D8D00F8215F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670D74D015503D8D00F8215F /* SenTestingKit.framework */; };
 		670D74D215503D8D00F8215F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670D74B215503D8C00F8215F /* UIKit.framework */; };
 		670D74D315503D8D00F8215F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670D74B415503D8C00F8215F /* Foundation.framework */; };
 		670D74DB15503D8D00F8215F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 670D74D915503D8D00F8215F /* InfoPlist.strings */; };
 		670D74DE15503D8D00F8215F /* RandomCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D74DD15503D8D00F8215F /* RandomCategoriesTests.m */; };
+		670D751715503F8800F8215F /* NSArray+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751215503F8800F8215F /* NSArray+Helpers.m */; };
+		670D751815503F8800F8215F /* NSArray+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751215503F8800F8215F /* NSArray+Helpers.m */; };
+		670D751915503F8800F8215F /* NSDate+RandomDates.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751415503F8800F8215F /* NSDate+RandomDates.m */; };
+		670D751A15503F8800F8215F /* NSDate+RandomDates.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751415503F8800F8215F /* NSDate+RandomDates.m */; };
+		670D751B15503F8800F8215F /* NSString+RandomStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751615503F8800F8215F /* NSString+RandomStrings.m */; };
+		670D751C15503F8800F8215F /* NSString+RandomStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D751615503F8800F8215F /* NSString+RandomStrings.m */; };
+		670D752515503FFC00F8215F /* Beer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D751D15503FFC00F8215F /* Beer@2x.png */; };
+		670D752615503FFC00F8215F /* Beer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D751D15503FFC00F8215F /* Beer@2x.png */; };
+		670D752715503FFC00F8215F /* Bread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D751E15503FFC00F8215F /* Bread@2x.png */; };
+		670D752815503FFC00F8215F /* Bread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D751E15503FFC00F8215F /* Bread@2x.png */; };
+		670D752915503FFC00F8215F /* Burger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D751F15503FFC00F8215F /* Burger@2x.png */; };
+		670D752A15503FFC00F8215F /* Burger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D751F15503FFC00F8215F /* Burger@2x.png */; };
+		670D752B15503FFC00F8215F /* Coffee@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D752015503FFC00F8215F /* Coffee@2x.png */; };
+		670D752C15503FFC00F8215F /* Coffee@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D752015503FFC00F8215F /* Coffee@2x.png */; };
+		670D752D15503FFC00F8215F /* Cupcake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D752115503FFC00F8215F /* Cupcake@2x.png */; };
+		670D752E15503FFC00F8215F /* Cupcake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D752115503FFC00F8215F /* Cupcake@2x.png */; };
+		670D752F15503FFC00F8215F /* Egg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D752215503FFC00F8215F /* Egg@2x.png */; };
+		670D753015503FFC00F8215F /* Egg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D752215503FFC00F8215F /* Egg@2x.png */; };
+		670D753115503FFC00F8215F /* FastFood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D752315503FFC00F8215F /* FastFood@2x.png */; };
+		670D753215503FFC00F8215F /* FastFood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D752315503FFC00F8215F /* FastFood@2x.png */; };
+		670D753315503FFC00F8215F /* Fish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D752415503FFC00F8215F /* Fish@2x.png */; };
+		670D753415503FFC00F8215F /* Fish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670D752415503FFC00F8215F /* Fish@2x.png */; };
+		670D75371550403F00F8215F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D75361550403F00F8215F /* ViewController.m */; };
+		670D75381550403F00F8215F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D75361550403F00F8215F /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +60,35 @@
 		670D74B215503D8C00F8215F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		670D74B415503D8C00F8215F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		670D74B615503D8C00F8215F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		670D74BA15503D8C00F8215F /* RandomCategories-Info.plist */ = {isa = PBXFileReference; path = "RandomCategories-Info.plist"; sourceTree = "<group>"; };
+		670D74BA15503D8C00F8215F /* RandomCategories-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandomCategories-Info.plist"; sourceTree = "<group>"; };
 		670D74BC15503D8C00F8215F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		670D74BE15503D8C00F8215F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		670D74C015503D8C00F8215F /* RandomCategories-Prefix.pch */ = {isa = PBXFileReference; path = "RandomCategories-Prefix.pch"; sourceTree = "<group>"; };
-		670D74C115503D8D00F8215F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		670D74C015503D8C00F8215F /* RandomCategories-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomCategories-Prefix.pch"; sourceTree = "<group>"; };
+		670D74C115503D8D00F8215F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		670D74C215503D8D00F8215F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		670D74C515503D8D00F8215F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		670D74C715503D8D00F8215F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		670D74C815503D8D00F8215F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		670D74CF15503D8D00F8215F /* RandomCategoriesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomCategoriesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		670D74D015503D8D00F8215F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		670D74D815503D8D00F8215F /* RandomCategoriesTests-Info.plist */ = {isa = PBXFileReference; path = "RandomCategoriesTests-Info.plist"; sourceTree = "<group>"; };
+		670D74D815503D8D00F8215F /* RandomCategoriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandomCategoriesTests-Info.plist"; sourceTree = "<group>"; };
 		670D74DA15503D8D00F8215F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		670D74DC15503D8D00F8215F /* RandomCategoriesTests.h */ = {isa = PBXFileReference; path = RandomCategoriesTests.h; sourceTree = "<group>"; };
+		670D74DC15503D8D00F8215F /* RandomCategoriesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomCategoriesTests.h; sourceTree = "<group>"; };
 		670D74DD15503D8D00F8215F /* RandomCategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomCategoriesTests.m; sourceTree = "<group>"; };
+		670D751115503F8800F8215F /* NSArray+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Helpers.h"; path = "Helpers/NSArray+Helpers.h"; sourceTree = "<group>"; };
+		670D751215503F8800F8215F /* NSArray+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Helpers.m"; path = "Helpers/NSArray+Helpers.m"; sourceTree = "<group>"; };
+		670D751315503F8800F8215F /* NSDate+RandomDates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+RandomDates.h"; path = "Helpers/NSDate+RandomDates.h"; sourceTree = "<group>"; };
+		670D751415503F8800F8215F /* NSDate+RandomDates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+RandomDates.m"; path = "Helpers/NSDate+RandomDates.m"; sourceTree = "<group>"; };
+		670D751515503F8800F8215F /* NSString+RandomStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+RandomStrings.h"; path = "Helpers/NSString+RandomStrings.h"; sourceTree = "<group>"; };
+		670D751615503F8800F8215F /* NSString+RandomStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+RandomStrings.m"; path = "Helpers/NSString+RandomStrings.m"; sourceTree = "<group>"; };
+		670D751D15503FFC00F8215F /* Beer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beer@2x.png"; path = "Images/Beer@2x.png"; sourceTree = "<group>"; };
+		670D751E15503FFC00F8215F /* Bread@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bread@2x.png"; path = "Images/Bread@2x.png"; sourceTree = "<group>"; };
+		670D751F15503FFC00F8215F /* Burger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Burger@2x.png"; path = "Images/Burger@2x.png"; sourceTree = "<group>"; };
+		670D752015503FFC00F8215F /* Coffee@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coffee@2x.png"; path = "Images/Coffee@2x.png"; sourceTree = "<group>"; };
+		670D752115503FFC00F8215F /* Cupcake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cupcake@2x.png"; path = "Images/Cupcake@2x.png"; sourceTree = "<group>"; };
+		670D752215503FFC00F8215F /* Egg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Egg@2x.png"; path = "Images/Egg@2x.png"; sourceTree = "<group>"; };
+		670D752315503FFC00F8215F /* FastFood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FastFood@2x.png"; path = "Images/FastFood@2x.png"; sourceTree = "<group>"; };
+		670D752415503FFC00F8215F /* Fish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Fish@2x.png"; path = "Images/Fish@2x.png"; sourceTree = "<group>"; };
+		670D75351550403F00F8215F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		670D75361550403F00F8215F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +148,13 @@
 		670D74B815503D8C00F8215F /* RandomCategories */ = {
 			isa = PBXGroup;
 			children = (
+				670D74E715503D9800F8215F /* Helpers */,
 				670D74C115503D8D00F8215F /* AppDelegate.h */,
 				670D74C215503D8D00F8215F /* AppDelegate.m */,
 				670D74C415503D8D00F8215F /* MainStoryboard.storyboard */,
-				670D74C715503D8D00F8215F /* ViewController.h */,
-				670D74C815503D8D00F8215F /* ViewController.m */,
+				670D75351550403F00F8215F /* ViewController.h */,
+				670D75361550403F00F8215F /* ViewController.m */,
+				670D74F415503EFE00F8215F /* Images */,
 				670D74B915503D8C00F8215F /* Supporting Files */,
 			);
 			path = RandomCategories;
@@ -149,6 +188,34 @@
 				670D74D915503D8D00F8215F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		670D74E715503D9800F8215F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				670D751115503F8800F8215F /* NSArray+Helpers.h */,
+				670D751215503F8800F8215F /* NSArray+Helpers.m */,
+				670D751315503F8800F8215F /* NSDate+RandomDates.h */,
+				670D751415503F8800F8215F /* NSDate+RandomDates.m */,
+				670D751515503F8800F8215F /* NSString+RandomStrings.h */,
+				670D751615503F8800F8215F /* NSString+RandomStrings.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		670D74F415503EFE00F8215F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				670D751D15503FFC00F8215F /* Beer@2x.png */,
+				670D751E15503FFC00F8215F /* Bread@2x.png */,
+				670D751F15503FFC00F8215F /* Burger@2x.png */,
+				670D752015503FFC00F8215F /* Coffee@2x.png */,
+				670D752115503FFC00F8215F /* Cupcake@2x.png */,
+				670D752215503FFC00F8215F /* Egg@2x.png */,
+				670D752315503FFC00F8215F /* FastFood@2x.png */,
+				670D752415503FFC00F8215F /* Fish@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +290,14 @@
 			files = (
 				670D74BD15503D8C00F8215F /* InfoPlist.strings in Resources */,
 				670D74C615503D8D00F8215F /* MainStoryboard.storyboard in Resources */,
+				670D752515503FFC00F8215F /* Beer@2x.png in Resources */,
+				670D752715503FFC00F8215F /* Bread@2x.png in Resources */,
+				670D752915503FFC00F8215F /* Burger@2x.png in Resources */,
+				670D752B15503FFC00F8215F /* Coffee@2x.png in Resources */,
+				670D752D15503FFC00F8215F /* Cupcake@2x.png in Resources */,
+				670D752F15503FFC00F8215F /* Egg@2x.png in Resources */,
+				670D753115503FFC00F8215F /* FastFood@2x.png in Resources */,
+				670D753315503FFC00F8215F /* Fish@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +306,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				670D74DB15503D8D00F8215F /* InfoPlist.strings in Resources */,
+				670D752615503FFC00F8215F /* Beer@2x.png in Resources */,
+				670D752815503FFC00F8215F /* Bread@2x.png in Resources */,
+				670D752A15503FFC00F8215F /* Burger@2x.png in Resources */,
+				670D752C15503FFC00F8215F /* Coffee@2x.png in Resources */,
+				670D752E15503FFC00F8215F /* Cupcake@2x.png in Resources */,
+				670D753015503FFC00F8215F /* Egg@2x.png in Resources */,
+				670D753215503FFC00F8215F /* FastFood@2x.png in Resources */,
+				670D753415503FFC00F8215F /* Fish@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +342,10 @@
 			files = (
 				670D74BF15503D8C00F8215F /* main.m in Sources */,
 				670D74C315503D8D00F8215F /* AppDelegate.m in Sources */,
-				670D74C915503D8D00F8215F /* ViewController.m in Sources */,
+				670D751715503F8800F8215F /* NSArray+Helpers.m in Sources */,
+				670D751915503F8800F8215F /* NSDate+RandomDates.m in Sources */,
+				670D751B15503F8800F8215F /* NSString+RandomStrings.m in Sources */,
+				670D75371550403F00F8215F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +354,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				670D74DE15503D8D00F8215F /* RandomCategoriesTests.m in Sources */,
+				670D751815503F8800F8215F /* NSArray+Helpers.m in Sources */,
+				670D751A15503F8800F8215F /* NSDate+RandomDates.m in Sources */,
+				670D751C15503F8800F8215F /* NSString+RandomStrings.m in Sources */,
+				670D75381550403F00F8215F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
